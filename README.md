@@ -15,31 +15,31 @@ The Arab 813 Hackathon is a regional online innovation program created to transf
 
 ## Table of Contents
 
-- #overview
-- #about-the-hackathon
-- #objectives
-- #who-this-repository-is-for
-- #repository-structure
-- #challenge-themes
-  - #1-climate-resilience--disaster-recovery
-  - #2-precision-agriculture--crop-intelligence
-  - #3-marine--water-security
-  - #4-blue-carbon--mangrove-health
-  - #5-sustainable-urban-planning
-  - #6-air-quality--atmospheric-monitoring
-- #getting-started
-- #how-to-use-the-notebooks
-  - #data-exploration-notebook
-  - #theme-notebooks
-- #data-resources
-- #platform--tools
-- #recommended-workflow
-- #program-timeline
-- #team-deliverables
-- #mentoring--support
-- #submission-guidance
-- #repository-best-practices
-- #acknowledgements
+- # overview
+- # about-the-hackathon
+- # objectives
+- # who-this-repository-is-for
+- # repository-structure
+- # challenge-themes
+  - # 1-climate-resilience--disaster-recovery
+  - # 2-precision-agriculture--crop-intelligence
+  - # 3-marine--water-security
+  - # 4-blue-carbon--mangrove-health
+  - # 5-sustainable-urban-planning
+  - # 6-air-quality--atmospheric-monitoring
+- # getting-started
+- # how-to-use-the-notebooks
+  - # data-exploration-notebook
+  - # theme-notebooks
+- # data-resources
+- # platform--tools
+- # recommended-workflow
+- # program-timeline
+- # team-deliverables
+- # mentoring--support
+- # submission-guidance
+- # repository-best-practices
+- # acknowledgements
 
 ---
 
@@ -51,20 +51,20 @@ This repository serves as the technical entry point for participants and contain
 - explore the available datasets,
 - understand the themes,
 - prototype solution ideas,
-- and prepare project deliverables. 【】
+- and prepare project deliverables.
 
 ---
 
 ## About the Hackathon
 
-The hackathon was created to celebrate and activate the potential of the **Arab Hyperspectral Satellite 813**, enabling participants to use hyperspectral and other Earth observation data to develop impactful downstream applications. The initiative is organized as part of the broader UAESA–Space42 ecosystem, which supports innovation, applied geospatial analytics, capacity building, and commercialization pathways in the UAE and across the Arab region. 【】
+The hackathon was created to celebrate and activate the potential of the **Arab Hyperspectral Satellite 813**, enabling participants to use hyperspectral and other Earth observation data to develop impactful downstream applications. The initiative is organized as part of the broader UAESA–Space42 ecosystem, which supports innovation, applied geospatial analytics, capacity building, and commercialization pathways in the UAE and across the Arab region.
 
 Unlike a traditional weekend hackathon, this program is structured as a longer innovation pipeline:
 1. registration and shortlisting,
 2. Proof of Concept (PoC) development,
 3. pitching and team selection,
 4. incubation and MVP maturation,
-5. and final evaluation and awards. 【】
+5. and final evaluation and awards.
 
 ---
 
@@ -72,11 +72,11 @@ Unlike a traditional weekend hackathon, this program is structured as a longer i
 
 The program is designed around five core strategic objectives:
 
-- **Maximize Satellite Impact** — enable early, high-value utilization of hyperspectral data through real-world applications. 【】
-- **Build Regional Capacity** — strengthen skills in hyperspectral analytics, AI, and geospatial intelligence among Arab youth, researchers, and professionals. 【】
-- **Foster Cross-Border Collaboration** — encourage collaboration across Arab institutions, universities, and innovation ecosystems. 【】
-- **Accelerate Commercialization** — support teams in transforming prototypes into startups, services, or deployable government/industry solutions. 【】
-- **Support Evidence-Based Policy** — generate analytics that inform decision-making in agriculture, water security, climate resilience, and disaster management. 【】
+- **Maximize Satellite Impact** — enable early, high-value utilization of hyperspectral data through real-world applications.
+- **Build Regional Capacity** — strengthen skills in hyperspectral analytics, AI, and geospatial intelligence among Arab youth, researchers, and professionals.
+- **Foster Cross-Border Collaboration** — encourage collaboration across Arab institutions, universities, and innovation ecosystems.
+- **Accelerate Commercialization** — support teams in transforming prototypes into startups, services, or deployable government/industry solutions.
+- **Support Evidence-Based Policy** — generate analytics that inform decision-making in agriculture, water security, climate resilience, and disaster management.
 
 ---
 
@@ -91,7 +91,7 @@ This repository is intended for:
 - mentors supporting technical work,
 - and organizers maintaining common resources.
 
-It is particularly useful for participants who want a **structured technical starting point** to work with satellite data in Python, Google Colab, and cloud-native analysis workflows. The broader hackathon program is designed for multidisciplinary teams and supports both technical and entrepreneurial solution development. 【】
+It is particularly useful for participants who want a **structured technical starting point** to work with satellite data in Python, Google Colab, and cloud-native analysis workflows. The broader hackathon program is designed for multidisciplinary teams and supports both technical and entrepreneurial solution development. 
 
 ---
 
