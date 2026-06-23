@@ -1,6 +1,6 @@
 # Arab 813 hyperspectral hackathon – Data & Notebook Repository
 
-Welcome to the official GitHub repository for the **Arab 813 Hackathon & Incubation Program**.
+Welcome to the official GitHub repository for the **[Arab 813 Hackathon & Incubation Program](https://spaceacademy-hackathons.space.gov.ae/)**.
 
 This repository is designed to support participants with:
 - starter notebooks,
