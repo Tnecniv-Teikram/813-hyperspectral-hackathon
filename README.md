@@ -1,4 +1,4 @@
-# Arab 813 Hackathon – Data & Notebook Repository
+# Arab 813 hyperspectral hackathon – Data & Notebook Repository
 
 Welcome to the official GitHub repository for the **Arab 813 Hackathon & Incubation Program**.
 
