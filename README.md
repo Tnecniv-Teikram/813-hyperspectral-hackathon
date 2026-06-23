@@ -530,10 +530,6 @@ To make this repository usable for everyone:
 
 This repository supports the Arab 813 Hackathon & Incubation Program, developed through the UAESA–Space42 ecosystem and designed to advance downstream space applications, technical capacity, and innovation across the Arab region. The broader program integrates training, mentoring, platform support, and incubation to transform ideas into real-world solutions.
 
-```
-
----
-
 # Optional sections I strongly recommend adding
 These would improve the GitHub page even further:
 
@@ -551,25 +547,36 @@ Add:
 - Colab badge
 - Binder/GitHub Codespaces option
 
+---
+
 ## 3. **FAQ**
 - Is this a typical weekend hackathon?
 No. The program runs from May to February and includes a proposal phase, a 10-week PoC phase, competitive incubation selection, and a 10-week incubation phase leading to MVP-level solutions.
+
 - Who can apply?
 Students, researchers, engineers, data scientists, and entrepreneurs from the UAE or any Arab country who are interested in Earth observation, GeoAI, sustainability, or space applications.
+
 - Can I apply as an individual?
 Yes. Individuals may apply solo and may be matched into teams if selected by the organizers.
+
 - What is the maximum team size?
 Teams consist of 3 to 5 members. Cross-country and multidisciplinary teams are strongly encouraged. Teams are fixed after the PoC kickoff.
+
 - What data will participants use?
 Participants receive access to EnMAP, Planet VHR imagery, and the Space42 gIQ Platform for analytics and deployment.
+
 - Is hyperspectral data mandatory?
 No. Using hyperspectral data is strongly encouraged - it provides bonus points during selection - but teams may also work with very high-resolution EO data.
+
 - What tools are allowed?
 Open-source tools (Python, Jupyter, Colab), custom code, and approved analytics tools. All data usage must be properly acknowledged.
+
 - Are there prizes or awards?
 Yes. Winning teams receive recognition at a formal ceremony, continued mentorship, visibility with partners, and opportunities for pilots, partnerships, or investment discussions.
+
 - Is there a participation fee?
 No. Participation in the program is entirely free of charge.
+
 - Who owns the intellectual property?
 Teams retain full ownership of their solutions. Organizers may request permission to showcase outputs for non-commercial promotional purposes.
 
