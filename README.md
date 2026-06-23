@@ -13,33 +13,33 @@ The Arab 813 Hackathon is a regional online innovation program created to transf
 
 ---
 
-## Table of Contents
+##Table of Contents
 
-- # overview
-- # about-the-hackathon
-- # objectives
-- # who-this-repository-is-for
-- # repository-structure
-- # challenge-themes
-  - # 1-climate-resilience--disaster-recovery
-  - # 2-precision-agriculture--crop-intelligence
-  - # 3-marine--water-security
-  - # 4-blue-carbon--mangrove-health
-  - # 5-sustainable-urban-planning
-  - # 6-air-quality--atmospheric-monitoring
-- # getting-started
-- # how-to-use-the-notebooks
-  - # data-exploration-notebook
-  - # theme-notebooks
-- # data-resources
-- # platform--tools
-- # recommended-workflow
-- # program-timeline
-- # team-deliverables
-- # mentoring--support
-- # submission-guidance
-- # repository-best-practices
-- # acknowledgements
+- #overview
+- #about-the-hackathon
+- #objectives
+- #who-this-repository-is-for
+- #repository-structure
+- #challenge-themes
+  - #1-climate-resilience--disaster-recovery
+  - #2-precision-agriculture--crop-intelligence
+  - #3-marine--water-security
+  - #4-blue-carbon--mangrove-health
+  - #5-sustainable-urban-planning
+  - #6-air-quality--atmospheric-monitoring
+- #getting-started
+- #how-to-use-the-notebooks
+  - #data-exploration-notebook
+  - #theme-notebooks
+- #data-resources
+- #platform--tools
+- #recommended-workflow
+- #program-timeline
+- #team-deliverables
+- #mentoring--support
+- #submission-guidance
+- #repository-best-practices
+- #acknowledgements
 
 ---
 
