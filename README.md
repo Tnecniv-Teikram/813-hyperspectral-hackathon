@@ -20,7 +20,7 @@ The Arab 813 Hackathon is a regional online innovation program created to transf
 - [Objectives](#objectives)
 - [Who This Repository Is For](#who-this-repository-is-for)
 - [Repository Structure](#repository-structure)
-- [Challenge Themes](#challenge-themes)
+- [Themes](#themes)
   - [Climate Resilience & Disaster Recovery](#1-climate-resilience--disaster-recovery)
   - [Precision Agriculture & Crop Intelligence](#2-precision-agriculture--crop-intelligence)
   - [Marine & Water Security](#3-marine--water-security)
@@ -43,9 +43,9 @@ The Arab 813 Hackathon is a regional online innovation program created to transf
 
 ---
 
-## Overview
+## 🌍 Overview
 
-The Arab 813 Hackathon is a **multi-month online hackathon and incubation program** built around hyperspectral and other Earth observation data. Participants work in multidisciplinary teams to solve real-world challenges related to climate resilience, agriculture, water, ecosystems, and urban systems. Teams are supported with structured lectures, technical mentoring, curated datasets, and access to the **gIQ** geospatial platform. 【】
+The Arab 813 Hackathon is a **multi-month online hackathon and incubation program** built around hyperspectral and other Earth observation data. Participants work in multidisciplinary teams to solve real-world challenges related to climate resilience, agriculture, water, ecosystems, and urban systems. Teams are supported with structured lectures, technical mentoring, curated datasets, and access to the **gIQ** geospatial platform.
 
 This repository serves as the technical entry point for participants and contains the notebooks and examples needed to:
 - explore the available datasets,
@@ -55,7 +55,7 @@ This repository serves as the technical entry point for participants and contain
 
 ---
 
-## About the Hackathon
+## 🚀 About the 813 hackathon
 
 The hackathon was created to celebrate and activate the potential of the **Arab Hyperspectral Satellite 813**, enabling participants to use hyperspectral and other Earth observation data to develop impactful downstream applications. The initiative is organized as part of the broader UAESA–Space42 ecosystem, which supports innovation, applied geospatial analytics, capacity building, and commercialization pathways in the UAE and across the Arab region.
 
@@ -65,6 +65,10 @@ Unlike a traditional weekend hackathon, this program is structured as a longer i
 3. pitching and team selection,
 4. incubation and MVP maturation,
 5. and final evaluation and awards.
+
+Target Audience: Students, data scientists, GIS professionals, and researchers passionate about Earth Observation (EO).
+
+Official Landing Page: [Space Academy Hackathons](https://spaceacademy-hackathons.space.gov.ae/)
 
 ---
 
@@ -94,39 +98,21 @@ This repository is intended for:
 It is particularly useful for participants who want a **structured technical starting point** to work with satellite data in Python, Google Colab, and cloud-native analysis workflows. The broader hackathon program is designed for multidisciplinary teams and supports both technical and entrepreneurial solution development. 
 
 ---
+## Themes
 
-## Repository Structure
+🎯 Hackathon Themes
+Participants are encouraged to build solutions within one of the following domains:
 
-```text
-813-hackathon/
-│
-├── README.md
-├── notebooks/
-│   ├── 00_data_exploration.ipynb
-│   ├── 01_climate_disaster_theme.ipynb
-│   ├── 02_precision_agriculture_theme.ipynb
-│   ├── 03_marine_water_security_theme.ipynb
-│   ├── 04_blue_carbon_mangrove_theme.ipynb
-│   ├── 05_urban_planning_theme.ipynb
-│   └── 06_air_quality_theme.ipynb
-│
-├── data_guides/
-│   ├── data_resource_guide.pdf
-│   ├── stac_links.md
-│   └── sample_aoi_geojson/
-│
-├── docs/
-│   ├── onboarding_guide.md
-│   ├── submission_guidelines.md
-│   ├── judging_criteria.md
-│   └── faq.md
-│
-├── assets/
-│   ├── images/
-│   └── figures/
-│
-└── templates/
-    ├── proposal_template.docx
-    ├── pitch_deck_template.pptx
-    └── project_submission_checklist.md
+Precision Agriculture: Optimize crop health, detect nutrient stress, and improve irrigation efficiency.
+
+Land Use & Land Cover: Monitor urban expansion, classify infrastructure, and track environmental change.
+
+Air Quality & GHG Monitoring: Detect methane/CO₂ point-source plumes and analyze industrial aerosol patterns for public health.
+
+Climate-Induced Disasters: Map wildfire burn scars and flood extents for rapid response and recovery.
+
+Blue Carbon & Coastal Biodiversity: Protect mangroves and seagrasses via hyperspectral trait analysis.
+
+Water Intelligence: Monitor inland water quality, turbidity, and harmful algal blooms (HABs).
+
 ````
