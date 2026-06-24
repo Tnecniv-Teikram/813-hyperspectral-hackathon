@@ -98,7 +98,7 @@ This repository is intended for:
 It is particularly useful for participants who want a **structured technical starting point** to work with satellite data in Python, Google Colab, and cloud-native analysis workflows. The broader hackathon program is designed for multidisciplinary teams and supports both technical and entrepreneurial solution development. 
 
 ---
-## 🎯 Themes
+## 🎯 themes
 
 Participants are encouraged to build solutions within one of the following domains:
 
@@ -137,11 +137,15 @@ pip install numpy matplotlib xarray rioxarray geopandas h5py pystac-client
 ```
 
 **Step 3: Run the Notebooks**
-Launch Jupyter: jupyter notebook
+Launch Jupyter: **jupyter notebook**
 
 Start with **00_EO_data_quickstart.ipynb** to familiarize yourself with the STAC framework to search, read and view satellite data from within your jupyter notebook without downloading it directly.
 
 Choose your theme-specific notebook to begin developing your hackathon solution.
+
+Happy hacking :) 
+
+The 813 hackathon organizing team
 
 
 
