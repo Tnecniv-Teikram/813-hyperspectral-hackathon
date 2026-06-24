@@ -103,16 +103,47 @@ It is particularly useful for participants who want a **structured technical sta
 🎯 Hackathon Themes
 Participants are encouraged to build solutions within one of the following domains:
 
-Precision Agriculture: Optimize crop health, detect nutrient stress, and improve irrigation efficiency.
+**Precision Agriculture & Crop Intelligence**: Optimize crop health, detect nutrient stress, and improve irrigation efficiency.
 
-Land Use & Land Cover: Monitor urban expansion, classify infrastructure, and track environmental change.
+**Land Use & Land Cover**: Monitor urban expansion, classify infrastructure, and track environmental change.
 
-Air Quality & GHG Monitoring: Detect methane/CO₂ point-source plumes and analyze industrial aerosol patterns for public health.
+**Air Quality & Atmospheric Monitoring**: Detect methane/CO₂ point-source plumes and analyze industrial aerosol patterns for public health.
 
-Climate-Induced Disasters: Map wildfire burn scars and flood extents for rapid response and recovery.
+**Climate Resilience & Disaster Recovery**: Map wildfire burn scars and flood extents for rapid response and recovery.
 
-Blue Carbon & Coastal Biodiversity: Protect mangroves and seagrasses via hyperspectral trait analysis.
+**Blue Carbon & Mangrove Health**: Protect mangroves and seagrasses via hyperspectral trait analysis.
 
-Water Intelligence: Monitor inland water quality, turbidity, and harmful algal blooms (HABs).
+**Marine & Water Security**: Monitor inland water quality, turbidity, and harmful algal blooms (HABs).
+
+---
+
+## Getting started
+
+💻 Getting Started: How to Run
+These notebooks are built to run in standard Jupyter environments (e.g., JupyterLab, Google Colab, or local VS Code).
+
+**Step 1: Clone the Repository**
+Bash
+git clone https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon
+cd 813-hyperspectral-hackathon
+
+**Step 2: Setup Environment**
+Ensure you have the required geospatial libraries installed. We recommend using **conda** or **venv**:
+
+```
+Bash
+pip install numpy matplotlib xarray rioxarray geopandas h5py pystac-client
+```
+
+**Step 3: Run the Notebooks**
+Launch Jupyter: jupyter notebook
+
+Start with **00_EO_data_quickstart.ipynb** to familiarize yourself with the STAC API.
+
+Choose your theme-specific notebook to begin developing your hackathon solution.
+
+
+
+
 
 ````
