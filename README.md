@@ -84,7 +84,7 @@ The program is designed around five core strategic objectives:
 
 ---
 
-## Who This Repository Is For
+## Who This repository is for
 
 This repository is intended for:
 
@@ -98,9 +98,8 @@ This repository is intended for:
 It is particularly useful for participants who want a **structured technical starting point** to work with satellite data in Python, Google Colab, and cloud-native analysis workflows. The broader hackathon program is designed for multidisciplinary teams and supports both technical and entrepreneurial solution development. 
 
 ---
-## Themes
+## 🎯 Themes
 
-🎯 Hackathon Themes
 Participants are encouraged to build solutions within one of the following domains:
 
 **Precision Agriculture & Crop Intelligence**: Optimize crop health, detect nutrient stress, and improve irrigation efficiency.
@@ -117,15 +116,17 @@ Participants are encouraged to build solutions within one of the following domai
 
 ---
 
-## Getting started
+## 💻 Getting started
 
-💻 Getting Started: How to Run
+How to Run
 These notebooks are built to run in standard Jupyter environments (e.g., JupyterLab, Google Colab, or local VS Code).
 
 **Step 1: Clone the Repository**
+```
 Bash
 git clone https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon
 cd 813-hyperspectral-hackathon
+```
 
 **Step 2: Setup Environment**
 Ensure you have the required geospatial libraries installed. We recommend using **conda** or **venv**:
@@ -138,7 +139,7 @@ pip install numpy matplotlib xarray rioxarray geopandas h5py pystac-client
 **Step 3: Run the Notebooks**
 Launch Jupyter: jupyter notebook
 
-Start with **00_EO_data_quickstart.ipynb** to familiarize yourself with the STAC API.
+Start with **00_EO_data_quickstart.ipynb** to familiarize yourself with the STAC framework to search, read and view satellite data from within your jupyter notebook without downloading it directly.
 
 Choose your theme-specific notebook to begin developing your hackathon solution.
 
