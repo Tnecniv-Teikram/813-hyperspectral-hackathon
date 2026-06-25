@@ -14,7 +14,7 @@
 **An initiative by the UAE Space Agency (UAESA) and Space42**  
 *Regional online hackathon & incubation program — May 2026 → February 2027*
 
-[🌐 Official Website](https://spaceacademy-hackathons.space.gov.ae/) · [📋 Apply Now](https://spaceacademy-hackathons.space.gov.ae/register) · [💬 Challenges](https://spaceacademy-hackathons.space.gov.ae/#challenges)
+[🌐 Official Website](https://spaceacademy-hackathons.space.gov.ae/) · [📋 Apply Now](https://spaceacademy-hackathons.space.gov.ae/register) · [💬 Themes](https://spaceacademy-hackathons.space.gov.ae/#challenges)
 
 </div>
 
