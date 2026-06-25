@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://spaceacademy-hackathons.space.gov.ae/logos/uaesa.png" height="60" alt="UAE Space Agency" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://space.gov.ae/app_themes/lg21016/images/logo.svg" height="60" alt="UAE Space Agency" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://spaceacademy-hackathons.space.gov.ae/logos/space42.jpg" height="60" alt="Space42" />
 
 # 🛰️ Arab Satellite 813 Hackathon
@@ -54,7 +54,7 @@
 
 This repository contains the **official data exploration notebooks, tutorials, and starter code** for the **Arab Satellite 813 Hackathon** — a multi-month regional challenge mobilising the Arab world's brightest minds to build satellite-powered solutions for climate, urban, and environmental challenges.
 
-Participants use real hyperspectral imagery from **Planet's Tanager satellite** (426 spectral bands, 30 m resolution), **EnMAP** (Germany's hyperspectral satellite), and **Planet VHR imagery**, all accessible through the **Space42 gIQ Platform**.
+Participants use real hyperspectral imagery from **Planet's Tanager satellite** (426 spectral bands, 30 m resolution), **EnMAP** (Germany's hyperspectral satellite), and **Planet VHR imagery**..
 
 These notebooks are designed so that a participant with **no prior remote sensing experience** can go from zero to computing advanced spectral indices within a single session. Each notebook is self-contained, extensively commented, and paired with explanatory markdown cells that explain the science behind every step.
 
@@ -283,10 +283,6 @@ https://www.planet.com/data/stac/tanager-core-imagery/coastal-water-bodies/colle
 | **Tanager-1** | Planet Labs | 30 m | 426 bands (380–2500 nm) | Global, themed collections |
 | **EnMAP** | DLR (Germany) | 30 m | 228 bands (420–2450 nm) | Global |
 | **Planet VHR** | Planet Labs | 3–5 m | 4–8 multispectral bands | Global daily |
-
-### Platform
-
-- **Space42 gIQ Platform** — professional geospatial analytics, data access, and deployment environment (access provided to selected teams)
 
 ### Open Tools Used in This Repository
 
@@ -535,7 +531,7 @@ jupyter notebook notebooks/
 
 ---
 
-### Option 3: Space42 gIQ Platform
+### Space42 gIQ Platform
 
 Selected teams receive access to the **Space42 gIQ Platform** — a pre-configured cloud environment with all dependencies installed, direct data access, and deployment tooling. No local installation needed.
 
