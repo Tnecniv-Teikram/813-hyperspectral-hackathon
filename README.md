@@ -115,23 +115,23 @@ June 2026  ->      Jul 2026   ->     Aug 2026    ->   Sep–Oct 2026   ->  Nov 2
  Open             22 July           (up to 20)        + Kickoff          (20 teams)
                                                       + Lectures
                                                       + Mentoring
-                                                                               │
-                                                                      Nov 2026 → Feb 2027
-                                                                               │
-                                                                               ▼
-                                                                         Incubation Phase
-                                                                         (7 teams → MVP)
-                                                                               │
-                                                                         Feb 2027
-                                                                               │
-                                                                               ▼
-                                                                        Graduation &
-                                                                        Awards Ceremony
+                                                                             │
+                                                                    Nov 2026 → Feb 2027
+                                                                             │
+                                                                             ▼
+                                                                       Incubation Phase
+                                                                       (7 teams → MVP)
+                                                                             │
+                                                                       Feb 2027
+                                                                             │
+                                                                             ▼
+                                                                      Graduation &
+                                                                      Awards Ceremony
 ```
 
 | Phase | Dates | Description |
 |-------|-------|-------------|
-| **Registration & Selection** | May → July 2026 | Apply with a problem statement. Up to 20 teams selected. |
+| **Registration & Selection** | July → Augustus  2026 | Apply with a problem statement. Up to 20 teams selected. |
 | **PoC Development** | September → October 2026 | 2-day kickoff, 10 weekly expert lectures, 3 mentor sessions. Build your Proof of Concept. |
 | **PoC Submission** | 26 October 2026 | Code, notebooks, demos, and use-case description due. |
 | **Final Presentations** | Early November 2026 | 18 teams present live (20–25 min each). 7 teams advance to incubation. |
