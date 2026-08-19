@@ -514,8 +514,8 @@ All notebooks run `%pip install` in their first code cell — no local setup nee
 
 ```bash
 # 1. Clone this repository
-[git clone https://github.com/YOUR-ORG/arab-813-hackathon.git](https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon.git)
-cd arab-813-hackathon
+git clone https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon.git
+cd 813-hyperspectral-hackathon
 
 # 2. Create a virtual environment (recommended)
 python -m venv .venv
