@@ -498,6 +498,8 @@ For reservoir / inland water scenes, also check the `coastal-water-bodies` colle
 
 ## ▶️ How to Run the Notebooks
 
+> 💡 **New here?** Start with `00_EO_data_quickstart_notebook.ipynb` — it covers environment setup, key concepts (STAC, COGs, bands, hyperspectral vs. multispectral), and troubleshooting tips that apply across all the notebooks. Each theme notebook (`01`–`06`) is still self-contained and installs its own dependencies, so you can jump straight to one if you prefer.
+
 ### Option 1: Google Colab (Recommended — no local setup)
 
 Click the badge to open any notebook directly in Colab:
@@ -511,6 +513,8 @@ All notebooks run `%pip install` in their first code cell — no local setup nee
 ### Option 2: Local Jupyter Environment
 
 **Prerequisites:** Python 3.9+
+
+**Using `pip` + `venv`:**
 
 ```bash
 # 1. Clone this repository
@@ -526,7 +530,26 @@ source .venv/bin/activate        # macOS/Linux
 pip install -r requirements.txt
 
 # 4. Launch Jupyter
-jupyter notebook notebooks/
+jupyter notebook
+```
+
+**Using [`uv`](https://docs.astral.sh/uv/) (faster):**
+
+```bash
+# 0. Install uv (skip if you already have it)
+curl -LsSf https://astral.sh/uv/install.sh | sh   # macOS/Linux
+# powershell -c "irm https://astral.sh/uv/install.ps1 | iex"   # Windows
+
+# 1. Clone this repository
+git clone https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon.git
+cd 813-hyperspectral-hackathon
+
+# 2. Create a virtual environment and install dependencies
+uv venv
+uv pip install -r requirements.txt
+
+# 3. Launch Jupyter
+uv run jupyter notebook
 ```
 
 ---
