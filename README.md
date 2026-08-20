@@ -3,10 +3,10 @@
 <img src="https://space.gov.ae/app_themes/lg21016/images/logo.svg" height="60" alt="UAE Space Agency" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://spaceacademy-hackathons.space.gov.ae/logos/space42.jpg" height="60" alt="Space42" />
 
-# 🛰️ Arab Satellite 813 Hackathon
+# 🛰️ Arab Youth Space Hackathon: 813 Challenge
 ### *From Light to Insight — Transforming Orbital Data into Climate, Urban & Environmental Solutions*
 
-[![Hackathon](https://img.shields.io/badge/Hackathon-813%20Arab%20Satellite-0A2342?style=for-the-badge&logo=satellite&logoColor=white)](https://spaceacademy-hackathons.space.gov.ae/)
+[![Hackathon](https://img.shields.io/badge/Arab%20Youth%20Space%20Hackathon-813%20Challenge-0A2342?style=for-the-badge&logo=satellite&logoColor=white)](https://spaceacademy-hackathons.space.gov.ae/)
 [![Apply Now](https://img.shields.io/badge/Apply%20Now-31%20July%20Deadline-E63946?style=for-the-badge)](https://spaceacademy-hackathons.space.gov.ae/register)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-green?style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
 [![Planet STAC](https://img.shields.io/badge/Data-Planet%20Tanager%20STAC-blue?style=for-the-badge)](https://www.planet.com/data/stac/tanager-core-imagery/catalog.json)
@@ -52,7 +52,7 @@
 
 ## 🌍 Overview
 
-This repository contains the **official data exploration notebooks, tutorials, and starter code** for the **Arab Satellite 813 Hackathon** — a multi-month regional challenge mobilising the Arab world's brightest minds to build satellite-powered solutions for climate, urban, and environmental challenges.
+This repository contains the **official data exploration notebooks, tutorials, and starter code** for the **Arab Youth Space Hackathon: 813 Challenge** — a multi-month regional challenge mobilising the Arab world's brightest minds to build satellite-powered solutions for climate, urban, and environmental challenges.
 
 Participants use real hyperspectral imagery from **Planet's Tanager satellite** (426 spectral bands, 30 m resolution), **EnMAP** (Germany's hyperspectral satellite), and **Planet VHR imagery**..
 
@@ -498,6 +498,8 @@ For reservoir / inland water scenes, also check the `coastal-water-bodies` colle
 
 ## ▶️ How to Run the Notebooks
 
+> 💡 **New here?** Start with `00_EO_data_quickstart_notebook.ipynb` — it covers environment setup, key concepts (STAC, COGs, bands, hyperspectral vs. multispectral), and troubleshooting tips that apply across all the notebooks. Each theme notebook (`01`–`06`) is still self-contained and installs its own dependencies, so you can jump straight to one if you prefer.
+
 ### Option 1: Google Colab (Recommended — no local setup)
 
 Click the badge to open any notebook directly in Colab:
@@ -511,6 +513,8 @@ All notebooks run `%pip install` in their first code cell — no local setup nee
 ### Option 2: Local Jupyter Environment
 
 **Prerequisites:** Python 3.9+
+
+**Using `pip` + `venv`:**
 
 ```bash
 # 1. Clone this repository
@@ -526,7 +530,26 @@ source .venv/bin/activate        # macOS/Linux
 pip install -r requirements.txt
 
 # 4. Launch Jupyter
-jupyter notebook notebooks/
+jupyter notebook
+```
+
+**Using [`uv`](https://docs.astral.sh/uv/) (faster):**
+
+```bash
+# 0. Install uv (skip if you already have it)
+curl -LsSf https://astral.sh/uv/install.sh | sh   # macOS/Linux
+# powershell -c "irm https://astral.sh/uv/install.ps1 | iex"   # Windows
+
+# 1. Clone this repository
+git clone https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon.git
+cd 813-hyperspectral-hackathon
+
+# 2. Create a virtual environment and install dependencies
+uv venv
+uv pip install -r requirements.txt
+
+# 3. Launch Jupyter
+uv run jupyter notebook
 ```
 
 ---
@@ -848,13 +871,13 @@ For adapted material, prefix with *"Adapted from…"*
 
 <div align="center">
 
-**Arab Satellite 813 Hackathon**  
+**Arab Youth Space Hackathon: 813 Challenge**  
 An initiative by UAE Space Agency & Space42
 
 *Application deadline: 31st July 2026*
 
 [🚀 Apply Now](https://spaceacademy-hackathons.space.gov.ae/register)
 
-`#ArabSatellite813` · `#FromLightToInsight` · `#SpaceTech` · `#EarthObservation`
+`#ArabYouthSpaceHackathon` · `#813Challenge` · `#FromLightToInsight` · `#SpaceTech` · `#EarthObservation`
 
 </div>
